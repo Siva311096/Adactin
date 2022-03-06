@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+   <parameter name="username" value="Siva3110"></parameter>
+   <parameter name="password" value="Siva@1996"></parameter>
+   <parameter name="location" value="1"></parameter>
+   <parameter name="hotel" value="1"></parameter>
+   <parameter name="roomType" value="1"></parameter>
+   <parameter name="roomNos" value="1"></parameter>
+   <parameter name="adultRoom" value="1"></parameter>
+   <parameter name="childRoom" value="1"></parameter>
+   <parameter name="firstname" value="Siva"></parameter>
+   <parameter name="lastname" value="avis"></parameter>
+   <parameter name="address" value="omr"></parameter>
+   <parameter name="ccnum" value="1234567897891472"></parameter>
+   <parameter name="creditType" value="1"></parameter>
+   <parameter name="expMonth" value="12"></parameter>
+   <parameter name="expYear" value="12"></parameter>
+   <parameter name="cccvv" value="123"></parameter>
+   
+  
+    <classes>
+      <class name="org.sampletest.SampleTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
